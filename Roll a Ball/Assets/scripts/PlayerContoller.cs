@@ -53,9 +53,6 @@ public class PlayerContoller : MonoBehaviour
 
 
 
-
-
-
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();

@@ -24,7 +24,6 @@ public class gameControl : MonoBehaviour {
     }
     private void OnGUI()
     {
-        GUI.Label(new Rect(10, 10, 100, 30), "HP :" + health);
-        GUI.Label(new Rect(10, 40, 100, 30), "$ :" + money);
+        GUI.Label(new Rect(10, 10, 100, 30), "Craziness :" + health);
     }
 }

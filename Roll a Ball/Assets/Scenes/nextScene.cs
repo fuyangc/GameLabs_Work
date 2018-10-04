@@ -8,7 +8,7 @@ public class nextScene : MonoBehaviour {
     public int sceneNum;
    void OnGUI()
     {
-        if (GUI.Button(new Rect(Screen.width / 2 - 50, Screen.height - 50, 100, 40), "Load Scenes" + sceneNum))
+        if (GUI.Button(new Rect(Screen.width / 2 - 50, Screen.height - 50, 100, 40), "Start... " + sceneNum))
             SceneManager.LoadScene(sceneNum);
         {
             
