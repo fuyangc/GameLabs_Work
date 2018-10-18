@@ -39,15 +39,15 @@ public class Ball : MonoBehaviour {
 
             Debug.Log("Right Player Wins !!");
 
-            Time.timeScale = 0;
-            enabled = false;
+
         }
         if (transform.position.x > GameManager.topRight.x - radius && direction.x > 0)
         {
 
             Debug.Log("Left Player Wins !!");
 
-           
+
+
         }
 
     
