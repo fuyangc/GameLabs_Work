@@ -405,11 +405,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1676294581}
-  thrust: 6
-  turnThrust: 90
+  thrust: 15
+  turnThrust: 85
   bullet: {fileID: 1216439937070470, guid: 268c1c84fd81042bb9b3e3e10fb63bb3, type: 2}
   fire: 0
-  fireSpeed: 0
+  fireSpeed: 200
   screenTop: 11
   screenBottom: -11
   screenLeft: -19
@@ -425,8 +425,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
+  m_UseAutoMass: 1
+  m_Mass: 1.8032973
   m_LinearDrag: 0
   m_AngularDrag: 0.5
   m_GravityScale: 0
